@@ -9,6 +9,13 @@
 
 <p>Note: make sure that every username is at the same line as the password on the txt files !!</p>
 
+<p>this code works fine on windows, but if you want it to work on linux you need to change os.system('cls') to os.system('clear')</p>
+
 <p>-its better to put the steam accounts into a mysql database to make it easy to manage.</p>
 
 <p>-if there is any mistakes or potential upgrades to the code please contact me.</p>
+
+# How to use it
+<p>-git clone https://github.com/den0un/CsgoReportBot.git</p>
+
+<p>-python3 main.py</p>
