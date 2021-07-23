@@ -7,3 +7,6 @@
 # How it works
 <p>First of all you need Steam Accounts that have steam guard disabled (this makes the login process much easier). Then you get the accounts and put them to the usernames/passwords txt file</p>
 <p>Note: make sure that every username is at the same line as the password on the txt files !!</p>
+# Some Notes
+<p>its better to put the steam accounts into a mysql database to make it easy to manage</p>
+<p>is there is any mistakes or potential upgrades to the code please contact me</p>
