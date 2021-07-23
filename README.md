@@ -4,5 +4,6 @@
 <p>-pip install requests</p>
 <p>-pip install pycryptodome</p>
 
-Also you need steam accounts to be able to report, the usernames goes to the usernames.txt and the passwords goes to passwords.txt.
-its better to put the accounts into mysql database then link it to the code.
+# How it works
+<p>First of all you need Steam Accounts that have steam guard disabled (this makes the login process much easier). Then you get the accounts and put them to the usernames/passwords txt file</p>
+<p>Note: make sure that every username is at the same line as the password on the txt files !!</p>
