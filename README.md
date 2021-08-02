@@ -23,7 +23,7 @@ this code works fine on windows, but if you want it to work on linux you need to
 
 # How it works
 
-<p> basically the script login to steam and make the report operation all of that using requests library.</p>
+<p> basically the script logins to steam and make the report operation all of that using requests library.</p>
 
 ### -1 Login to steam
 
