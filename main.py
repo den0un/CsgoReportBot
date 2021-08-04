@@ -4,8 +4,11 @@ import random
 import defs
 
 victim_profile = input("give victim's profile URL:")
-with open('acc.txt', 'r') as file:
+
+with open('accounts.txt', 'r') as file:
+    
     for creds in file:
+        
         os.system('cls')
         username, password = creds.strip('\n').split(':')
 
