@@ -5,9 +5,9 @@
 <p>-pip install pycryptodome</p>
 
 # What you need
-<p>First of all you need Steam Accounts that have steam guard disabled (this code can not work with Steam Guard). Then you get the accounts and put them to the usernames/passwords txt file.</p>
+<p>First of all you need Steam Accounts that have steam guard disabled (this code can not work with Steam Guard). Then you get the accounts and put them to the accounts txt file.</p>
 
-Note: make sure that every username is at the same line as the password on the txt files !!<br>
+Note: make sure that the accounts is like USERNAME:PASSWORD this is important for the code to work!!<br>
 
 this code works fine on windows, but if you want it to work on linux you need to change os.system('cls') to os.system('clear')<br>
 
