@@ -50,10 +50,12 @@ with open('accounts.txt', 'r') as file:
 
             else:
 
-                print('[-] Error something wrong happened !!')
-                break
+                print('[-] Error something wrong happened while reporting !!')
+                time.sleep(2)
+                pass
 
         else:
 
             print("[-] Error, could not login:", login["message"])
-            break
+            time.sleep(2)
+            pass
