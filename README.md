@@ -11,9 +11,7 @@ Note: make sure that the accounts are like USERNAME:PASSWORD this is important f
 
 this code works fine on windows, but if you want it to work on linux you need to change os.system('cls') to os.system('clear')<br>
 
--its better to put the steam accounts into a mysql database to make it easy to manage.<br>
-
--if there is any mistakes or potential upgrades to the code please contact me.</p>
+-its better to put the steam accounts into a mysql database to make it easy to manage.<br></p>
 
 # How to use it
 
