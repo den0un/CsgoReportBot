@@ -7,9 +7,9 @@
 # What you need
 <p>First of all you need Steam Accounts that have steam guard disabled (this code can not work with Steam Guard). Then you get the accounts and put them in the accounts.txt file.</p>
 
-Note: make sure that the accounts are like USERNAME:PASSWORD this is important for the code to work!!<br>
+- make sure that the accounts are like USERNAME:PASSWORD this is important for the code to work!!<br>
 
-This code works fine on windows, but if you want it to work on linux you need to change os.system('cls') to os.system('clear')<br>
+- This code works fine on windows, but if you want it to work on linux you need to change os.system('cls') to os.system('clear')<br>
 
 - Its better to put the steam accounts into a database to make it easy to manage.<br></p>
 
@@ -17,17 +17,19 @@ This code works fine on windows, but if you want it to work on linux you need to
 
 <p>git clone https://github.com/den0un/CsgoReportBot.git</p>
 
+<p>cd CsgoReportBot</p>
+
 <p>python3 main.py</p>
 
 # How it works
 
-<p> basically the script logins to steam and make the report operation all of that using requests library.</p>
+<p> Basically the script logins to steam and make the report operation all of that using requests library.</p>
 
 - This report bot is not that efficient, it is made using webscraping with python. I just made it to test my skills at python and to learn websraping. i explained how it works down below in case someone wants to develop it more. Enjoy!
 
 ### -1 Login to steam
 
-the steam login process consists of 2 urls<br>
+The steam login process consists of 2 urls<br>
 1- https://steamcommunity.com/login/getrsakey/ to get the RSA Key for password encryption.<br>
 2- https://steamcommunity.com/login/dologin/ its for loging in, it needs a username and an encrypted password and some other form data.<br>
 
